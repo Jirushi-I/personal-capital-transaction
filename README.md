@@ -3,14 +3,14 @@
 
 ## Personal Capital Transactions
 
-For Obsidian, complements the Personal Capital plugin by adding JSONL file rendering to view and edit ledgers.
+For Obsidian, complements the Personal Capital plugin by adding JSONL file rendering to view and edit ledgers
 Also has optional ledger syncing for my other plugin, Finance Balance Sheet.
 
 ### Features
 
 - Reads transaction lines from `data.json` or JSONL-formatted finance transaction files
 - Renders transactions in a user-friendly table inside Obsidian
-- Can work alongside the Finance Balance Sheet plugin to bridge the gap between printable and data-friendly accounting.
+- Can work alongside the Finance Balance Sheet plugin to bridge the gap between printable and data-friendly accounting
 - Will store cash register/petty income/etc. as its own account
 
 ### Installation
