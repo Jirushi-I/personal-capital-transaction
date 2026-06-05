@@ -1,0 +1,9 @@
+{
+  "id": "personal-capital-transaction",
+  "name": "Personal Capital Transactions",
+  "version": "0.0.2",
+  "minAppVersion": "1.8.0",
+  "author": "Jirushi",
+  "description": "Finance transactions jsonl renderer supporting sync with the Finance Balance Sheet plugin",
+  "isDesktopOnly": false
+}

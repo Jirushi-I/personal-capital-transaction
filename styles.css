@@ -1,0 +1,151 @@
+.pct-root {
+    padding: 18px 22px;
+    font-family: var(--font-interface);
+}
+
+.pct-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.pct-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.pct-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+}
+
+.pct-summary span {
+    padding: 3px 8px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    background: var(--background-primary-alt);
+}
+
+.pct-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 0.82rem;
+}
+
+.pct-table th {
+    padding: 7px 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    color: var(--text-muted);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.pct-table td {
+    padding: 7px 8px;
+    border-bottom: 1px solid var(--background-modifier-border-hover);
+    vertical-align: middle;
+}
+
+.pct-table tr:hover td {
+    background: rgba(127, 127, 127, 0.045);
+}
+
+.pct-date {
+    width: 96px;
+    color: var(--text-muted);
+    font-family: var(--font-monospace);
+    font-size: 0.76rem;
+}
+
+.pct-type {
+    width: 76px;
+    color: var(--text-muted);
+    text-transform: capitalize;
+}
+
+.pct-name {
+    font-weight: 600;
+}
+
+.pct-account,
+.pct-note {
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pct-amount {
+    width: 100px;
+    text-align: right;
+    font-family: var(--font-monospace);
+    font-weight: 700;
+}
+
+.pct-input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 3px 5px;
+    background: transparent;
+    color: var(--text-normal);
+    font: inherit;
+}
+
+.pct-input:hover,
+.pct-input:focus {
+    border-color: var(--background-modifier-border);
+    background: var(--background-primary);
+    outline: none;
+}
+
+.pct-date .pct-input,
+.pct-amount .pct-input {
+    font-family: var(--font-monospace);
+}
+
+.pct-amount .pct-input {
+    text-align: right;
+    font-weight: 700;
+}
+
+.pct-actions {
+    width: 74px;
+    text-align: right;
+}
+
+.pct-row-btn,
+.pct-add-btn {
+    opacity: 0;
+    font-size: 0.72rem;
+    padding: 2px 7px;
+}
+
+.pct-table tr:hover .pct-row-btn,
+.pct-table tr:hover .pct-add-btn,
+.pct-add-row:hover .pct-add-btn {
+    opacity: 1;
+}
+
+.pct-add-row {
+    padding: 9px 8px !important;
+    text-align: left;
+}
+
+.pct-row-income .pct-amount {
+    color: var(--color-green);
+}
+
+.pct-row-expense .pct-amount {
+    color: var(--color-red);
+}
